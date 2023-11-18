@@ -12,12 +12,12 @@
     "forceConsistentCasingInFileNames": true,
     "outDir": "compiled",
     "declaration": true,
-    "emitDeclarationOnly": true,
+    // "emitDeclarationOnly": true,
     "rootDirs": [
       "./src",
       "./.next"
     ],
-    // "noEmit": true,
+    "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "bundler",
@@ -34,8 +34,7 @@
       "@/*": [
         "./src/*"
       ]
-    },
-    "noEmit": true
+    }
   },
   "include": [
     "next-env.d.ts",

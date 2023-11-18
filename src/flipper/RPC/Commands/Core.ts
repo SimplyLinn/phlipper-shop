@@ -1,5 +1,5 @@
-import { SUPPORTED_VERSIONS } from './constants';
-import { mkFns } from './interfaceBuilder';
+import { SUPPORTED_VERSIONS } from '../_internal/constants';
+import { mkFns } from '../_internal/utils';
 
 const CoreApi = mkFns([
   {
